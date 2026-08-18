@@ -1,0 +1,26 @@
+{
+  "name": "pago-planillas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "test": "jest",
+    "deploy": "node deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguel-delacruz/pago-planillas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/miguel-delacruz/pago-planillas/issues"
+  },
+  "homepage": "https://github.com/miguel-delacruz/pago-planillas#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
