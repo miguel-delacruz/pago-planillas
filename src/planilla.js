@@ -27,7 +27,7 @@ function calcularIngresosTotales(sueldoBase, pagoHorasExtra, bono) {
 }
 
 function calcularPagoNeto(ingresosTotales, descuentos) {
-  return ingresosTotales + descuentos;
+  return ingresosTotales - descuentos;
 }
 
 function calcularPlanilla(empleado) {
